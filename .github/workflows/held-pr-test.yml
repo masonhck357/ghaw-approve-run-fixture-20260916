@@ -1,0 +1,15 @@
+name: Held PR test
+
+on:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  marker:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print inert baseline marker
+        run: printf '%s\n' 'GHAW_STALE_APPROVAL_BASELINE_20260916_7C4E13A2'
+
