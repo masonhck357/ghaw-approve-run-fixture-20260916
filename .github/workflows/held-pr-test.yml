@@ -10,6 +10,5 @@ jobs:
   marker:
     runs-on: ubuntu-latest
     steps:
-      - name: Print inert baseline marker
-        run: printf '%s\n' 'GHAW_STALE_APPROVAL_BASELINE_20260916_7C4E13A2'
-
+      - name: Print inert historical marker
+        run: printf '%s\n' 'GHAW_STALE_APPROVAL_A_20260916_7C4E13A2'
